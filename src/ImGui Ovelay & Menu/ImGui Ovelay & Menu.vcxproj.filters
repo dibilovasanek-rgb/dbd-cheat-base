@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\math">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\memory">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\offsets">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\types">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\overlay">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\bones">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\bruteforce">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\c_actor">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\c_camera_manager">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\c_fname">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\c_game_instance">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\c_game_state">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\c_local_player">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\c_pawn">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\c_player_controller">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\c_player_state">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\c_scene_component">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\c_skeletal_mesh">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\classes\c_world">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\imgui">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000023}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\math\math.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\memory.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\offsets\offsets.h">
+      <Filter>src\offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\types\types.h">
+      <Filter>src\types</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\render.h">
+      <Filter>src\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\overlay\overlay.h">
+      <Filter>src\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bones\bones.h">
+      <Filter>src\bones</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bruteforce\bruteforce.h">
+      <Filter>src\bruteforce</Filter>
+    </ClInclude>
+    <ClInclude Include="src\classes\c_actor\c_actor.h">
+      <Filter>src\classes\c_actor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\classes\c_camera_manager\c_camera_manager.h">
+      <Filter>src\classes\c_camera_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\classes\c_fname\c_fname.h">
+      <Filter>src\classes\c_fname</Filter>
+    </ClInclude>
+    <ClInclude Include="src\classes\c_game_instance\c_game_instance.h">
+      <Filter>src\classes\c_game_instance</Filter>
+    </ClInclude>
+    <ClInclude Include="src\classes\c_game_state\c_game_state.h">
+      <Filter>src\classes\c_game_state</Filter>
+    </ClInclude>
+    <ClInclude Include="src\classes\c_local_player\c_local_player.h">
+      <Filter>src\classes\c_local_player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\classes\c_pawn\c_pawn.h">
+      <Filter>src\classes\c_pawn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\classes\c_player_controller\c_player_controller.h">
+      <Filter>src\classes\c_player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="src\classes\c_player_state\c_player_state.h">
+      <Filter>src\classes\c_player_state</Filter>
+    </ClInclude>
+    <ClInclude Include="src\classes\c_scene_component\c_scene_component.h">
+      <Filter>src\classes\c_scene_component</Filter>
+    </ClInclude>
+    <ClInclude Include="src\classes\c_skeletal_mesh\c_skeletal_mesh.h">
+      <Filter>src\classes\c_skeletal_mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\classes\c_world\c_world.h">
+      <Filter>src\classes\c_world</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imconfig.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imgui.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imgui_impl_dx11.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imgui_impl_win32.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imgui_internal.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imstb_rectpack.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imstb_textedit.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui\imstb_truetype.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\memory.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\render.cpp">
+      <Filter>src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\overlay\overlay.cpp">
+      <Filter>src\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui_demo.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui_draw.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui_impl_dx11.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui_impl_win32.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui_tables.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui\imgui_widgets.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="syscalls.asm">
+      <Filter>src</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
